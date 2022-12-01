@@ -107,7 +107,7 @@ body {
 .header {
   background: #2f303a;
   width: 1200px;
-  height: 600px;
+
   justify-content: center;
   align-content: center;
 }
@@ -121,6 +121,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .order-button {
@@ -377,7 +379,9 @@ body {
   color: #2196f3;
 }
 
-h1 {
+.header .container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
