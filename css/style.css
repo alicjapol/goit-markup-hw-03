@@ -10,6 +10,8 @@ body {
 
 .logo-nav {
   background: #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .ul {
@@ -26,6 +28,8 @@ body {
   padding-right: 46px;
   padding-left: 215px;
   font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
 
   font-weight: 700;
   font-size: 1.62rem;
@@ -34,11 +38,9 @@ body {
   text-decoration: none;
 }
 
-.nav {
+.nav-flex-contact {
   display: flex;
-  flex: 1;
-  gap: 46px;
-  align-items: center;
+  flex-direction: row;
 }
 
 .nav-agency {
@@ -104,8 +106,10 @@ body {
 
 .header {
   background: #2f303a;
-  width: 1600px;
+  width: 1200px;
   height: 600px;
+  justify-content: center;
+  align-content: center;
 }
 
 .h1 {
@@ -363,8 +367,17 @@ body {
   line-height: 1.14;
   text-decoration: none;
   color: #212121;
+  display: flex;
+  flex: 1;
+  gap: 46px;
+  align-items: center;
 }
 
 .nav-portfolio {
   color: #2196f3;
+}
+
+h1 {
+  justify-content: center;
+  align-content: center;
 }
