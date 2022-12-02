@@ -4,11 +4,6 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1200px;
-}
-
-.logo-nav .container {
-  margin-left: 0;
 }
 
 .logo-nav {
@@ -33,7 +28,6 @@ body {
   font-family: "Raleway", sans-serif;
   display: flex;
   flex-wrap: nowrap;
-  margin-left: -100px;
 
   font-weight: 700;
   font-size: 1.62rem;
@@ -125,7 +119,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  padding-top: 220px;
+  padding-top: 120px;
   padding-bottom: 280px;
 }
 
@@ -344,9 +338,7 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 200px;
-  margin-top: -150px;
   justify-content: center;
-  margin-left: -110px;
 }
 
 .button-type {
@@ -381,7 +373,6 @@ body {
   flex: 1;
   gap: 46px;
   align-items: center;
-  margin-left: -250px;
 }
 
 .nav-portfolio {
@@ -397,4 +388,8 @@ body {
 
 .section .footer {
   width: 1200px;
+}
+
+.main-content {
+  background: #ffffff;
 }
