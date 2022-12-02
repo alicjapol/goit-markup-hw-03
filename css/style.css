@@ -24,6 +24,7 @@ body {
 
 .ul {
   list-style: none;
+  padding: 0;
 }
 
 .logo-web {
@@ -49,6 +50,7 @@ body {
 
 .nav-flex-contact {
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .nav-agency {
