@@ -12,7 +12,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="images" href="images/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,91 +25,103 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <section class="section-nav">
-        <!--logo-->
-        <nav>
-          <div class="nav-flex">
-            <div class="logo-nav">
-              <a href="#" class="logo">
-                <span class="logo-web">Web</span>
-                Studio
-              </a>
-              <ul class="nav ul">
-                <li><a class="nav-agency" href="#">Agencja</a></li>
-                <li>
-                  <a class="nav-portfolio" href="portfolio.html">Portfolio</a>
-                </li>
-                <li><a class="nav-contact" href="#">Kontakt</a></li>
-              </ul>
+        <div class="container nav-general">
+          <!--logo-->
+            <div class="nav-flex">
+              <div class="logo-nav">
+                <a href="#" class="logo">
+                  <span class="logo-web">Web</span>
+                  Studio
+                </a>
+                <ul class="nav ul">
+                  <li><a class="nav-agency" href="#">Agencja</a></li>
+                  <li>
+                    <a class="nav-portfolio" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li><a class="nav-contact" href="#">Kontakt</a></li>
+                </ul>
+              </div>
+              <!--contacts-->
+              <div class="nav-flex-contact">
+                <ul class="ul nav-flex-contact">
+                  <li>
+                    <a class="mail" href="mailto:info@devstudio.com">
+                      info@devstudio.com
+                    </a>
+                  </li>
+                  <li>
+                    <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!--contacts-->
-            <div class="nav-flex-contact">
-              <ul class="ul">
-                <li>
-                  <a class="mail" href="mailto:info@devstudio.com">
-                    info@devstudio.com
-                  </a>
-                </li>
-                <li>
-                  <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </section>
     </header>
     <main>
       <section class="section header">
         <!--hero-->
-        <div class="container-header">
-          <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <div class="button-flex">
-            <button class="order-button" type="button">
-              <span class="order-text">Zamów usługe</span>
-            </button>
+        <div class="container">
+          <div class="container-header">
+            <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <div class="button-flex">
+              <button class="order-button" type="button">
+                <span class="order-text">Zamów usługe</span>
+              </button>
+            </div>
           </div>
         </div>
       </section>
+      <!--lorem ipsum-->
       <section class="main">
-        <div class="container">
-          <ul class="ul">
+  <ul class="ul">
+    <div class="flex-main">
             <li>
-              <h3 class="topic-ne">LOREM IPSUM</h3>
+              <h3 class="topic-one">LOREM IPSUM</h3>
               <p class="about one">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
+           
             </li>
             <li>
+             
               <h3 class="topic-two">LOREM IPSUM</h3>
               <p class="about two">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
+          
             </li>
             <li>
+  
               <h3 class="topic-three">LOREM IPSUM</h3>
               <p class="about three">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
+            
             </li>
             <li>
+              
               <h3 class="topic-four">LOREM IPSUM</h3>
               <p class="about four">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
+          
             </li>
+          </div>
           </ul>
-        </div>
       </section>
+      <!--czym sie zajmujemy-->
       <section class="main-content">
-        <div class="container">
+        <div class="container main-content">
           <h2 class="what-we-do">Czym się zajmujemy</h2>
           <ul class="ul">
             <li>
@@ -143,11 +154,12 @@
           </ul>
         </div>
       </section>
-      <section class="main-content">
+      <!--team-->
+      <section class="team-content">
         <div class="container">
           <h2 class="team-header">Nasz zespół</h2>
-          <ul class="ul">
-            <li>
+          <ul class="ul team-photos">
+            <li class="team-card">
               <figure>
                 <img
                   src="images/employees/johnRedShirt.jpg"
@@ -206,7 +218,8 @@
           </ul>
         </div>
       </section>
-      <footer class="section footer">
+      <!--footer-->
+      <footer class="footer">
         <div class="container">
           <a href="#" class="logo-footer">
             <span class="logo-web">Web</span>
