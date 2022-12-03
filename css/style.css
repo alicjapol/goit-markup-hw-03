@@ -4,6 +4,7 @@ body {
 
 .container {
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .section {
@@ -20,6 +21,9 @@ body {
 .section-nav {
   align-items: baseline;
   border-bottom: 1px solid #ececec;
+  padding-left: 542px;
+  padding-right: 541px;
+  align-self: center;
 }
 
 .ul {
@@ -139,6 +143,8 @@ body {
   height: 50px;
   background: #2196f3;
   border-radius: 4px;
+  justify-content: center;
+  align-self: auto;
 }
 
 .order-text {
@@ -239,8 +245,6 @@ body {
 }
 
 .footer {
-  width: 1600px;
-  height: 252px;
   background: #2f303a;
 }
 
@@ -345,11 +349,10 @@ body {
 .button {
   width: 93px;
   height: 38px;
-
+  /* display: block; */
   background: #f5f4fa;
   border-radius: 4px;
-  margin-bottom: 200px;
-  justify-content: center;
+  /* margin-bottom: 200px; */
 }
 
 .button-type {
@@ -414,15 +417,9 @@ body {
   justify-items: center;
 }
 
-/* .button-flex {
-  padding-bottom: 210px;
-  margin-left: 500px;
-  margin-right: 500px;
-  align-self: center;
-  justify-self: center;
-} */
-
 .button-flex {
-  margin-bottom: 210px;
-  justify-content: center;
+  margin-bottom: 116px;
+  /* 
+  padding-left: 542px;
+  padding-right: 541px; */
 }
