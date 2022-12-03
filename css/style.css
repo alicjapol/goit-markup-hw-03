@@ -21,9 +21,6 @@ body {
 .section-nav {
   align-items: baseline;
   border-bottom: 1px solid #ececec;
-  padding-left: 542px;
-  padding-right: 541px;
-  align-self: center;
 }
 
 .ul {
