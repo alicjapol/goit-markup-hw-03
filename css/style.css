@@ -165,6 +165,7 @@ body {
   align-self: auto;
   box-shadow: 0px 4px 4px #212121;
   outline: none;
+  border: none;
 }
 
 .order-text {
