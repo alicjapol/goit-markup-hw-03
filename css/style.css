@@ -348,13 +348,11 @@ h4 {
 .marketing {
   font-size: 1rem;
   line-height: 1.62;
-  padding: 6px 22px;
-  margin: 0 auto;
 }
 
 .button {
-  width: 93px;
-  height: 38px;
+  /* width: 93px;
+  height: 38px; */
   background: #f5f4fa;
   border-radius: 4px;
   outline: none;
@@ -363,13 +361,12 @@ h4 {
 }
 
 .button-type {
-  width: 322px;
-  height: 30px;
   font-size: 1rem;
   line-height: 1.87;
   color: #757575;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding: 4px 24px 20px 24px;
 }
 
 .caption {
@@ -486,4 +483,9 @@ h4 {
   background: #ffffff;
   border: 1px solid #eeeeee;
   border-top: #ffffff;
+}
+
+.ul-portfolio-button {
+  display: block;
+  padding: 6px 24px;
 }
