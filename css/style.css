@@ -346,11 +346,10 @@ h4 {
 .apps,
 .design,
 .marketing {
-  width: 49px;
-  height: 26px;
-
   font-size: 1rem;
   line-height: 1.62;
+  padding: 6px 22px;
+  margin: 0 auto;
 }
 
 .button {
@@ -360,26 +359,27 @@ h4 {
   border-radius: 4px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .button-type {
   width: 322px;
   height: 30px;
-
   font-size: 1rem;
   line-height: 1.87;
-
   color: #757575;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
-h2 .caption {
-  width: 322px;
-  height: 36px;
-
+.caption {
+  margin-top: 20px;
   font-weight: 700;
   font-size: 1.12rem;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .nav {
@@ -393,7 +393,6 @@ h2 .caption {
   flex: 1;
   gap: 35px;
   justify-content: flex-start;
-  /* align-items: center; */
   margin-left: 93px;
 }
 
@@ -439,7 +438,7 @@ h2 .caption {
   gap: 30px;
 }
 
-h2 {
+.team-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -481,4 +480,10 @@ h2 {
   gap: 30px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.li-flex {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top: #ffffff;
 }
