@@ -89,7 +89,8 @@ body {
   color: #2196f3;
 }
 
-.nav-portfolio {
+.nav-portfolio,
+.nav-portfolio-main {
   width: 58px;
   height: 16px;
   color: #212121;
