@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 1600px;
   width: 100%;
 }
 * {
@@ -41,7 +40,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  gap: 37px;
+  gap: 30px;
 }
 
 .logo-web {
@@ -464,4 +463,13 @@ h2 {
   box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
     0px 2px 1px #00000033;
   border-radius: 0px 0px 4px 4px;
+}
+
+.menu-portfolio {
+  display: flex;
+}
+
+.main-portfolio {
+  display: flex;
+  flex-flow: row wrap;
 }
