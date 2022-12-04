@@ -1,11 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
+  max-width: 1600px;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 .section {
@@ -16,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   /* margin-right: 278px; */
-  padding-left: 161px;
+  padding-left: 15px;
 }
 
 .nav-general {
@@ -61,12 +67,15 @@ body {
   text-decoration: none;
 }
 
-.ul .nav-flex-contact {
+.nav-flex-contact {
   display: flex;
-  gap: 37px;
+  align-items: center;
+  gap: 50px;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  padding-right: 170px;
+  padding-left: 371px;
+  list-style: none;
+  padding-right: 27px;
 }
 
 .nav-agency {
@@ -103,8 +112,6 @@ body {
 }
 
 .mail {
-  width: 135px;
-  height: 16px;
   font-size: 0.87rem;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -117,8 +124,6 @@ body {
 }
 
 .tel {
-  width: 135px;
-  height: 16px;
   font-size: 0.87rem;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -132,10 +137,10 @@ body {
 
 .header {
   background: #2f303a;
-  width: 1200px;
+  /* width: 1200px; */
 
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center;
+  align-content: center; */
 }
 
 .h1 {
@@ -178,7 +183,7 @@ section .main {
   background: #ffffff;
   display: flex;
   flex-flow: row nowrap;
-  /* padding: 120px 161px 94px 161px; */
+  padding-bottom: 0;
 }
 
 .about {
@@ -249,8 +254,6 @@ section .main {
 }
 
 .logo-footer {
-  width: 145px;
-  height: 31px;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
@@ -259,50 +262,51 @@ section .main {
 }
 
 .logo-studio {
-  color: white;
+  color: #ffffff;
 }
 
 .address {
-  width: 246px;
-  height: 21px;
   font-size: 0.87rem;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 9px;
+  padding-bottom: 60px;
 }
 
-.figcaption {
-  width: 72px;
-  height: 19px;
+h4 {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.18;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
+  display: block;
+  margin-top: 30px;
+  /* margin-bottom: 59px; */
 }
 
 .job-position {
-  width: 130px;
-  height: 19px;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .footer-mail {
-  width: 231px;
-  height: 21px;
   font-weight: 400;
   font-size: 0.87rem;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  font-style: normal;
   text-decoration: none;
   color: #ffffff99;
 }
@@ -312,15 +316,11 @@ section .main {
 }
 
 .footer-tel {
-  width: 231px;
-  height: 21px;
-
   font-weight: 400;
   font-size: 0.87rem;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  font-style: normal;
   color: #ffffff99;
 }
 
@@ -328,11 +328,17 @@ section .main {
   color: #2196f3;
 }
 
+.logo-footer-flex {
+  display: block;
+  padding-right: 15px;
+  padding-top: 60px;
+}
+
 .button:hover,
 .button:focus,
 .button:active {
   background-color: #2196f3;
-  color: white;
+  color: #ffffff;
 }
 .all,
 .pages,
@@ -401,18 +407,18 @@ section .main {
   align-items: center;
 }
 
-.section .footer {
-  width: 1200px;
-}
-
 .main-content {
   background: #ffffff;
-  max-width: 1200px;
+}
+
+.main-content-flex {
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
 
 .container-header {
   display: flex;
-  /* margin-top: 0; */
   padding-left: 252px;
   padding-right: 252px;
   flex-direction: column;
@@ -424,9 +430,7 @@ section .main {
   padding-top: 30px;
 }
 
-.ul .flex-main {
-  max-width: 1200px;
-  padding: 94px;
+.flex-main {
   background: #ffffff;
   display: flex;
   flex-flow: row nowrap;
@@ -434,17 +438,12 @@ section .main {
   gap: 30px;
 }
 
-.conteiner .main-content {
-  display: flex;
-  gap: 30px;
-}
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
   padding-bottom: 50px;
   margin: 0;
 }
@@ -452,11 +451,15 @@ h2 {
   background: #f5f4fa;
 }
 
-.ul .team-photos {
-  display: block;
+.team-photos {
+  display: flex;
   flex-direction: row;
   gap: 30px;
+  justify-content: space-evenly;
 }
 
 .team-card {
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+    0px 2px 1px #00000033;
+  border-radius: 0px 0px 4px 4px;
 }

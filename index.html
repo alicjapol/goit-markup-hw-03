@@ -46,8 +46,8 @@
                 </ul>
               </div>
               <!--contacts-->
-              <div class="nav-flex-contact">
-                <ul class="ul nav-flex-contact">
+              
+                <ul class="nav-flex-contact">
                   <li>
                     <a class="mail" href="mailto:info@devstudio.com">
                       info@devstudio.com
@@ -57,7 +57,7 @@
                     <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
                   </li>
                 </ul>
-              </div>
+              
             </div>
           </nav>
         </div>
@@ -78,9 +78,10 @@
         </div>
       </section>
       <!--lorem ipsum-->
-      <section class="main">
+      <section class=" section main">
   <ul class="ul">
-    <div class="flex-main">
+    <div class="container flex-main">
+    <!-- <div class="flex-main"> -->
             <li>
               <h3 class="topic-one">LOREM IPSUM</h3>
               <p class="about one">
@@ -120,10 +121,10 @@
           </ul>
       </section>
       <!--czym sie zajmujemy-->
-      <section class="main-content">
+      <section class="section">
         <div class="container main-content">
-          <h2 class="what-we-do">Czym się zajmujemy</h2>
-          <ul class="ul">
+          <h2>Czym się zajmujemy</h2>
+          <ul class="main-content-flex">
             <li>
               <img
                 class="workplace"
@@ -155,39 +156,38 @@
         </div>
       </section>
       <!--team-->
-      <section class="team-content">
+      <section class="section team-content">
         <div class="container">
           <h2 class="team-header">Nasz zespół</h2>
           <ul class="ul team-photos">
             <li class="team-card">
-              <figure>
+        
                 <img
                   src="images/employees/johnRedShirt.jpg"
                   alt="uśmiechnięty męźczyzna"
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption">
-                  John Doe
-                  <span class="job-position">Product Designer</span>
-                </figcaption>
-              </figure>
+             <h4>John Doe</h4>
+                 
+                  <p class="job-position">Product Designer</p>
+              
             </li>
-            <li>
-              <figure>
+            <li class="team-card">
+              
                 <img
                   src="images/employees/johnWomen.jpg"
                   alt="uśmiechnięta kobieta"
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption">
-                  John Doe
-                  <span class="job-position">Fronted Developer</span>
+                <h4>John Doe</h4>
+               
+                  <p class="job-position">Fronted Developer</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="team-card">
               <figure>
                 <img
                   src="images/employees/johnBlueShirt.jpg"
@@ -195,13 +195,12 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption">
-                  John Doe
-                  <span class="job-position">Marketing</span>
+                <h4>John Doe</h4>
+                  <p class="job-position">Marketing</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="team-card">
               <figure>
                 <img
                   src="images/employees/johnTShirt.jpg"
@@ -209,9 +208,8 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption">
-                  John Doe
-                  <span class="job-position">UI Designer</span>
+                <h4>John Doe</h4>
+                  <p class="job-position">UI Designer</p>
                 </figcaption>
               </figure>
             </li>
@@ -219,12 +217,13 @@
         </div>
       </section>
       <!--footer-->
-      <footer class="footer">
-        <div class="container">
+      <footer class="container footer">
+<div class="logo-footer-flex">
           <a href="#" class="logo-footer">
             <span class="logo-web">Web</span>
             <span class="logo-studio">Studio</span>
           </a>
+        </div>
           <address class="address">
             m. Warszawa, Aleje Jerozolimskie 21
             <a class="footer-mail" href="mailto:info@example.com">
@@ -232,7 +231,8 @@
             </a>
             <a class="footer-tel" href="tel:+48111111111">+48 111 111 111</a>
           </address>
-        </div>
+
+    
       </footer>
     </main>
   </body>
