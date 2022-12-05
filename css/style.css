@@ -43,9 +43,9 @@ body {
   gap: 30px;
 }
 
-/* .logo-web {
+.logo-web {
   color: #2196f3;
-} */
+}
 
 .nav-flex {
   display: flex;
