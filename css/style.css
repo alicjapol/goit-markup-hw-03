@@ -522,3 +522,9 @@ h4 {
   line-height: 1.19;
   color: #2196f3;
 }
+
+ul .main-portfolio {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
