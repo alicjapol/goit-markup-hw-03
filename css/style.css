@@ -90,7 +90,13 @@ body {
 .nav-portfolio:hover,
 .nav-contact:active,
 .nav-contact:focus,
-.nav-contact:hover {
+.nav-contact:hover,
+.mail:active,
+.mail:focus,
+.mail:hover,
+.tel:active,
+.tel:focus,
+.tel:hover {
   color: #2196f3;
   cursor: pointer;
 }
@@ -103,20 +109,18 @@ body {
   text-decoration: none;
 }
 
-.nav-portfolio:active {
+/* .nav-portfolio:active {
   color: #2196f3;
-}
+} */
 
 .nav-contact {
-  /* width: 58px;
-  height: 16px; */
   color: #212121;
   text-decoration: none;
 }
 
-.nav-contact:active {
+/* .nav-contact:active {
   color: #2196f3;
-}
+} */
 
 .mail {
   font-size: 0.87rem;
@@ -126,9 +130,9 @@ body {
   text-decoration: none;
 }
 
-.mail:active {
+/* .mail:active {
   color: #2196f3;
-}
+} */
 
 .tel {
   font-size: 0.87rem;
@@ -138,9 +142,9 @@ body {
   text-decoration: none;
 }
 
-.tel:active {
+/* .tel:active {
   color: #2196f3;
-}
+} */
 
 .header {
   background: #2f303a;
@@ -258,15 +262,6 @@ section .main {
 .footer {
   background-color: #2f303a;
   margin: 0 auto;
-}
-
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.62rem;
-  line-height: 1.19;
-  color: #2196f3;
 }
 
 .logo-studio {
@@ -517,4 +512,13 @@ h4 {
 
 .menu-portfolio {
   padding-top: 50px;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.62rem;
+  line-height: 1.19;
+  color: #2196f3;
 }
