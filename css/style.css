@@ -94,15 +94,16 @@ body {
 .mail:hover,
 .tel:active,
 .tel:focus,
-.tel:hover {
+.tel:hover,
+.nav-portfolio-main:active,
+.nav-portfolio-main:focus,
+.nav-portfolio-main:hover {
   color: #2196f3;
   cursor: pointer;
 }
 
 .nav-portfolio,
 .nav-portfolio-main {
-  width: 58px;
-  height: 16px;
   color: #212121;
   text-decoration: none;
 }
@@ -147,8 +148,6 @@ body {
 }
 
 .order-button {
-  width: 200px;
-  height: 50px;
   background: #2196f3;
   border-radius: 4px;
   justify-content: center;
@@ -156,12 +155,10 @@ body {
   box-shadow: 0px 4px 4px #212121;
   outline: none;
   border: none;
+  padding: 10px 41px 10px 42px;
 }
 
 .order-text {
-  width: 117px;
-  height: 30px;
-
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.87;
@@ -179,8 +176,6 @@ section .main {
 }
 
 .about {
-  width: 270px;
-  height: 75px;
   font-weight: 400;
   font-size: 0.87rem;
   line-height: 1.71;
@@ -190,8 +185,6 @@ section .main {
 }
 
 .topic-one {
-  width: 270px;
-  height: 16px;
   font-weight: 700;
   font-size: 0.87rem;
   line-height: 1.14;
@@ -200,8 +193,6 @@ section .main {
 }
 
 .topic-two {
-  width: 270px;
-  height: 16px;
   font-weight: 700;
   font-size: 0.87rem;
   line-height: 1.14;
@@ -209,8 +200,6 @@ section .main {
 }
 
 .topic-three {
-  width: 270px;
-  height: 16px;
   font-weight: 700;
   font-size: 0.87rem;
   line-height: 1.14;
@@ -218,8 +207,6 @@ section .main {
 }
 
 .topic-four {
-  width: 270px;
-  height: 16px;
   font-weight: 700;
   font-size: 0.87rem;
   line-height: 1.14;
@@ -454,8 +441,8 @@ h4 {
   flex-flow: row wrap;
   list-style: none;
   gap: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   padding-bottom: 94px;
 }
 
@@ -480,10 +467,9 @@ h4 {
   padding-bottom: 0px;
 }
 
-.menu-portfolio {
+/* .menu-portfolio {
   padding-top: 50px;
-  padding-bottom: 0;
-}
+} */
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -492,6 +478,10 @@ h4 {
   font-size: 1.62rem;
   line-height: 1.19;
   color: #2196f3;
+}
+
+.li-flex {
+  width: calc((100%- 2 * 30px) / 3);
 }
 
 .li-description {
